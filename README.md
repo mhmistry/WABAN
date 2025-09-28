@@ -1,4 +1,5 @@
 # WABAN - WhatsApp Banner/Hider
+<br>
 ### Author: github.com/mhmistry
 
 **WABAN** is a Chrome extension that lets you **hide WhatsApp Web messages** that contain specific words or patterns.  
