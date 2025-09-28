@@ -1,0 +1,18 @@
+# Ignore node stuff
+node_modules/
+
+# Ignore build output
+dist/
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore logs
+*.log
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore python/venv if ever used
+venv/

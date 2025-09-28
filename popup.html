@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <div class="header">
+    <div class="brand">
+      <img src="waban.png" class="logo" />
+      <span class="title">WABAN</span>
+    </div>
+    <button id="powerBtn" class="power-btn">
+      <img src="images/power.svg" alt="Power" />
+    </button>
+  </div>
+
+  <div class="main">
+    <div class="chips" id="chipContainer"></div>
+
+    <div class="input-row">
+      <input type="text" id="patternInput" placeholder="Type word & press Enter" />
+      <button id="saveBtn" class="save-btn" disabled>
+        <svg class="plane" xmlns="http://www.w3.org/2000/svg" height="14" width="14" viewBox="0 0 24 24"><path d="M2 21L23 12 2 3v7l15 2-15 2z"/></svg>
+        Save
+      </button>
+    </div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

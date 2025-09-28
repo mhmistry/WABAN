@@ -1,0 +1,29 @@
+{
+  "manifest_version": 3,
+  "name": "WABAN",
+  "version": "1.0",
+  "description": "Hide or replace WhatsApp Web messages that match patterns.",
+  "permissions": ["storage"],
+  "content_scripts": [
+    {
+      "matches": ["https://web.whatsapp.com/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "waban.png",
+      "48": "waban.png",
+      "128": "waban.png"
+    }
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "waban.png",
+    "48": "waban.png",
+    "128": "waban.png"
+  }
+}
